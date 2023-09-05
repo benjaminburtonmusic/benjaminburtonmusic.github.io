@@ -1,0 +1,132 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color or image */
+body {
+    background-color: #f7f7f7; /* Light gray background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* Light text color for header */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark text color for links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6600; /* Highlight color on hover (orange) */
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color for headings */
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Music item styles (customize as needed) */
+.music-item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.music-item img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ff6600; /* Orange border around images */
+}
+
+.music-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.music-item p {
+    font-size: 1rem;
+    color: #777; /* Gray text color for additional info */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* Light text color for footer */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive design for smaller screens (optional) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    section h2 {
+        font-size: 1.5rem;
+    }
+    
+    section p {
+        font-size: 1rem;
+    }
+    
+    .music-item h3 {
+        font-size: 1.2rem;
+    }
+    
+    .music-item p {
+        font-size: 0.9rem;
+    }
+}
